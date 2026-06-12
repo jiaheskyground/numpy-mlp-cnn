@@ -1,0 +1,567 @@
+{
+  "search_results": [
+    {
+      "rank": 1,
+      "config": {
+        "hidden": [
+          1024,
+          512,
+          256
+        ],
+        "dropout": 0.25,
+        "lr": 0.003,
+        "batch_size": 256,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 10,
+        "gamma": 0.7,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9865,
+      "best_epoch_15ep": 11
+    },
+    {
+      "rank": 2,
+      "config": {
+        "hidden": [
+          1024,
+          512,
+          256
+        ],
+        "dropout": 0.1,
+        "lr": 0.002,
+        "batch_size": 64,
+        "optimizer": "adam",
+        "scheduler": "exponential",
+        "step_size": 5,
+        "gamma": 0.3,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9856666666666667,
+      "best_epoch_15ep": 8
+    },
+    {
+      "rank": 3,
+      "config": {
+        "hidden": [
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.25,
+        "lr": 0.002,
+        "batch_size": 64,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 10,
+        "gamma": 0.3,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9855,
+      "best_epoch_15ep": 14
+    },
+    {
+      "rank": 4,
+      "config": {
+        "hidden": [
+          512,
+          256
+        ],
+        "dropout": 0.25,
+        "lr": 0.0015,
+        "batch_size": 256,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 5,
+        "gamma": 0.7,
+        "weight_decay": 0.0001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9853333333333333,
+      "best_epoch_15ep": 14
+    },
+    {
+      "rank": 5,
+      "config": {
+        "hidden": [
+          512,
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.1,
+        "lr": 0.002,
+        "batch_size": 128,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 8,
+        "gamma": 0.5,
+        "weight_decay": 0.0001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9843333333333333,
+      "best_epoch_15ep": 12
+    },
+    {
+      "rank": 6,
+      "config": {
+        "hidden": [
+          128,
+          64
+        ],
+        "dropout": 0.1,
+        "lr": 0.001,
+        "batch_size": 64,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 10,
+        "gamma": 0.3,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9841666666666666,
+      "best_epoch_15ep": 11
+    },
+    {
+      "rank": 7,
+      "config": {
+        "hidden": [
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.0,
+        "lr": 0.0005,
+        "batch_size": 256,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 8,
+        "gamma": 0.7,
+        "weight_decay": 0.0001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9823333333333333,
+      "best_epoch_15ep": 15
+    },
+    {
+      "rank": 8,
+      "config": {
+        "hidden": [
+          512,
+          256
+        ],
+        "dropout": 0.5,
+        "lr": 0.0005,
+        "batch_size": 64,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 10,
+        "gamma": 0.5,
+        "weight_decay": 0.001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.982,
+      "best_epoch_15ep": 12
+    },
+    {
+      "rank": 9,
+      "config": {
+        "hidden": [
+          128,
+          64
+        ],
+        "dropout": 0.2,
+        "lr": 0.003,
+        "batch_size": 128,
+        "optimizer": "adam",
+        "scheduler": "exponential",
+        "step_size": 5,
+        "gamma": 0.7,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9801666666666666,
+      "best_epoch_15ep": 11
+    },
+    {
+      "rank": 10,
+      "config": {
+        "hidden": [
+          1024,
+          512
+        ],
+        "dropout": 0.25,
+        "lr": 0.003,
+        "batch_size": 256,
+        "optimizer": "adam",
+        "scheduler": "exponential",
+        "step_size": 5,
+        "gamma": 0.3,
+        "weight_decay": 0.001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9795,
+      "best_epoch_15ep": 6
+    },
+    {
+      "rank": 11,
+      "config": {
+        "hidden": [
+          256,
+          128
+        ],
+        "dropout": 0.25,
+        "lr": 0.001,
+        "batch_size": 64,
+        "optimizer": "adam",
+        "scheduler": "exponential",
+        "step_size": 8,
+        "gamma": 0.5,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9791666666666666,
+      "best_epoch_15ep": 9
+    },
+    {
+      "rank": 12,
+      "config": {
+        "hidden": [
+          128,
+          64
+        ],
+        "dropout": 0.0,
+        "lr": 0.0005,
+        "batch_size": 256,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 5,
+        "gamma": 0.7,
+        "weight_decay": 0.001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9778333333333333,
+      "best_epoch_15ep": 13
+    },
+    {
+      "rank": 13,
+      "config": {
+        "hidden": [
+          512,
+          256
+        ],
+        "dropout": 0.0,
+        "lr": 0.003,
+        "batch_size": 128,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 8,
+        "gamma": 0.7,
+        "weight_decay": 0.001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9776666666666667,
+      "best_epoch_15ep": 11
+    },
+    {
+      "rank": 14,
+      "config": {
+        "hidden": [
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.0,
+        "lr": 0.003,
+        "batch_size": 64,
+        "optimizer": "sgd",
+        "scheduler": "steplr",
+        "step_size": 5,
+        "gamma": 0.5,
+        "weight_decay": 0.0,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.9745,
+      "best_epoch_15ep": 13
+    },
+    {
+      "rank": 15,
+      "config": {
+        "hidden": [
+          256,
+          128
+        ],
+        "dropout": 0.5,
+        "lr": 0.002,
+        "batch_size": 128,
+        "optimizer": "adam",
+        "scheduler": "exponential",
+        "step_size": 10,
+        "gamma": 0.5,
+        "weight_decay": 0.001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.972,
+      "best_epoch_15ep": 6
+    },
+    {
+      "rank": 16,
+      "config": {
+        "hidden": [
+          1024,
+          512,
+          256
+        ],
+        "dropout": 0.25,
+        "lr": 0.001,
+        "batch_size": 64,
+        "optimizer": "sgd",
+        "scheduler": "steplr",
+        "step_size": 10,
+        "gamma": 0.5,
+        "weight_decay": 0.0,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.9685,
+      "best_epoch_15ep": 14
+    },
+    {
+      "rank": 17,
+      "config": {
+        "hidden": [
+          128,
+          64
+        ],
+        "dropout": 0.5,
+        "lr": 0.003,
+        "batch_size": 64,
+        "optimizer": "adam",
+        "scheduler": "exponential",
+        "step_size": 10,
+        "gamma": 0.7,
+        "weight_decay": 0.0001,
+        "momentum": 0
+      },
+      "best_val_acc_15ep": 0.9678333333333333,
+      "best_epoch_15ep": 13
+    },
+    {
+      "rank": 18,
+      "config": {
+        "hidden": [
+          512,
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.0,
+        "lr": 0.003,
+        "batch_size": 128,
+        "optimizer": "sgd",
+        "scheduler": "exponential",
+        "step_size": 8,
+        "gamma": 0.5,
+        "weight_decay": 0.001,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.9455,
+      "best_epoch_15ep": 9
+    },
+    {
+      "rank": 19,
+      "config": {
+        "hidden": [
+          256,
+          128
+        ],
+        "dropout": 0.2,
+        "lr": 0.0015,
+        "batch_size": 256,
+        "optimizer": "sgd",
+        "scheduler": "steplr",
+        "step_size": 10,
+        "gamma": 0.5,
+        "weight_decay": 0.0,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.9365,
+      "best_epoch_15ep": 15
+    },
+    {
+      "rank": 20,
+      "config": {
+        "hidden": [
+          256,
+          128
+        ],
+        "dropout": 0.0,
+        "lr": 0.001,
+        "batch_size": 64,
+        "optimizer": "sgd",
+        "scheduler": "exponential",
+        "step_size": 10,
+        "gamma": 0.7,
+        "weight_decay": 0.0,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.9281666666666667,
+      "best_epoch_15ep": 12
+    },
+    {
+      "rank": 21,
+      "config": {
+        "hidden": [
+          1024,
+          512,
+          256
+        ],
+        "dropout": 0.2,
+        "lr": 0.0005,
+        "batch_size": 128,
+        "optimizer": "sgd",
+        "scheduler": "exponential",
+        "step_size": 8,
+        "gamma": 0.5,
+        "weight_decay": 0.0001,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.8795,
+      "best_epoch_15ep": 7
+    },
+    {
+      "rank": 22,
+      "config": {
+        "hidden": [
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.3,
+        "lr": 0.0015,
+        "batch_size": 256,
+        "optimizer": "sgd",
+        "scheduler": "exponential",
+        "step_size": 8,
+        "gamma": 0.5,
+        "weight_decay": 0.0,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.8465,
+      "best_epoch_15ep": 10
+    },
+    {
+      "rank": 23,
+      "config": {
+        "hidden": [
+          512,
+          256
+        ],
+        "dropout": 0.3,
+        "lr": 0.0005,
+        "batch_size": 256,
+        "optimizer": "sgd",
+        "scheduler": "exponential",
+        "step_size": 5,
+        "gamma": 0.5,
+        "weight_decay": 0.0001,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.7913333333333333,
+      "best_epoch_15ep": 11
+    },
+    {
+      "rank": 24,
+      "config": {
+        "hidden": [
+          512,
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.5,
+        "lr": 0.0015,
+        "batch_size": 256,
+        "optimizer": "sgd",
+        "scheduler": "exponential",
+        "step_size": 5,
+        "gamma": 0.7,
+        "weight_decay": 0.0,
+        "momentum": 0.9
+      },
+      "best_val_acc_15ep": 0.693,
+      "best_epoch_15ep": 14
+    }
+  ],
+  "top_results": [
+    {
+      "name": "Top-1 ADAM hidden=[1024, 512, 256] dropout=0.25 lr=3e-03 batch=256",
+      "config": {
+        "hidden": [
+          1024,
+          512,
+          256
+        ],
+        "dropout": 0.25,
+        "lr": 0.003,
+        "batch_size": 256,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 10,
+        "gamma": 0.7,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc": 0.9865,
+      "best_epoch": 16,
+      "test_acc": 0.9837
+    },
+    {
+      "name": "Top-2 ADAM hidden=[1024, 512, 256] dropout=0.1 lr=2e-03 batch=64",
+      "config": {
+        "hidden": [
+          1024,
+          512,
+          256
+        ],
+        "dropout": 0.1,
+        "lr": 0.002,
+        "batch_size": 64,
+        "optimizer": "adam",
+        "scheduler": "exponential",
+        "step_size": 5,
+        "gamma": 0.3,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc": 0.9858333333333333,
+      "best_epoch": 6,
+      "test_acc": 0.9822
+    },
+    {
+      "name": "Top-3 ADAM hidden=[256, 128, 64] dropout=0.25 lr=2e-03 batch=64",
+      "config": {
+        "hidden": [
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.25,
+        "lr": 0.002,
+        "batch_size": 64,
+        "optimizer": "adam",
+        "scheduler": "steplr",
+        "step_size": 10,
+        "gamma": 0.3,
+        "weight_decay": 0.0,
+        "momentum": 0
+      },
+      "best_val_acc": 0.9875,
+      "best_epoch": 23,
+      "test_acc": 0.9842
+    }
+  ],
+  "optimal_test_acc": 0.9842
+}
